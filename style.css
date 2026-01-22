@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+body {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a { 
+    text-decoration: none;
+}
+
+article h1 {
+    margin-bottom: 15px;
+}
+
+article ul li {
+    margin: 5px;
+}
+header {
+    width: 100%;
+    margin: 25px 0;
+}
+
+header nav {
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+article {
+    margin: 0 15px;
+} 
+
+article p {
+    margin-top: 15px;
+}
+
+.pagination {
+    margin-top: 30px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .prev , .next{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border: 1px solid black;
+    visibility: hidden;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 20px;
+    width: 60%
+}
+
+footer div {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div a{
+    padding: 0 10px;
+    text-decoration: none;
+} 
